@@ -1,9 +1,5 @@
 # curriculum-databases-projects-template
 
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
-
-
 ## Getting Started
 
 This repository includes files with plain SQL that can be used to recreate a database:
@@ -19,7 +15,7 @@ This repository includes files with plain SQL that can be used to recreate a dat
 - [curriculum-databases-projects-template](#curriculum-databases-projects-template)
   - [Getting Started](#getting-started)
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[your\_project\_name\] ](#-your_project_name-)
+- [📖 \[Vet\_Clinic\] ](#-vet_clinic-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -40,9 +36,7 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
-
-> Describe your project in 1 or 2 sentences.
+# 📖 [Vet_Clinic] <a name="about-project"></a>
 
 **[Vet_Clinic]** is a complete database with data about animals , owners, clinics employees and visits.
 
@@ -63,7 +57,8 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 
 - **[Add_data_in_DB]**
-- **[ID_generated]**
+- **[ID_generated_automaticaly]**
+- **[Secure_update_and_delete]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,6 +99,7 @@ Clone this repository to your desired folder:
 ### Install
 
 Install this project with:
+coming soon
 
 <!--
 Example command:
@@ -117,7 +113,7 @@ Example command:
 ### Usage
 
 To run the project, execute the following command:
-
+coming soon
 <!--
 Example command:
 
@@ -129,7 +125,7 @@ Example command:
 ### Run tests
 
 To run tests, run the following command:
-
+coming soon
 <!--
 Example command:
 
@@ -141,7 +137,7 @@ Example command:
 ### Deployment
 
 You can deploy this project using:
-
+coming soon
 <!--
 Example:
 
@@ -151,8 +147,6 @@ Example:
  -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -164,7 +158,6 @@ Example:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
@@ -175,8 +168,6 @@ Example:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
-
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
@@ -185,7 +176,6 @@ Feel free to check the [issues page](https://github.com/Yacoubou-seidou/Vet_Clin
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
@@ -194,8 +184,6 @@ If you like this project show some love by commenting
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
-
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
@@ -203,8 +191,6 @@ I would like to thank Microverse staff for their support
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
