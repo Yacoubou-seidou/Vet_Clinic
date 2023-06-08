@@ -35,6 +35,7 @@ SELECT neutered,AVG(escape_attempts) AS escape FROM animals GROUP BY (neutered) 
 SELECT MIN(weight_kg),MAX(weight_kg), species FROM animals GROUP BY species;
 SELECT species,AVG(escape_attempts) AS escape FROM animals WHERE date_of_birth BETWEEN  '1990-01-01' AND '2000-01-01' GROUP BY (species) ;
 SELECT animals.name, owners.full_name FROM animals JOIN owners ON animals.owners_id=owners.id WHERE full_name = 'Melody Pond';
+SELECT animals.name, species.name FROM animals JOIN species ON animals.species_id=species.id WHERE species.name = 'Pokemon';
 SELECT owners.full_name, animals.name AS animal_name FROM owners LEFT JOIN animals ON owners.id=animals.owners_id;
 SELECT species.name, COUNT(*) AS species_number FROM species JOIN animals ON species.id = animals.species_id GROUP BY species.name;
 SELECT name AS digimon_animals, owners.full_name FROM (SELECT animals.name, animals.owners_id FROM animals JOIN SPECIES ON species_id = species.id WHERE species.name LIKE 'Digimon') AS all_digimons JOIN owners ON all_digimons.owners_id = owners.id WHERE owners.full_name LIKE 'Jennifer Orwell';
